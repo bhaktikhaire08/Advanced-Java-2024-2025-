@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div> Pract-3A </div>
+        <form action="FileUploadServlet" method="post" enctype="multipart/form-data">
+        <h1><u>FILE UPLOAD APPLICATION</u></h1>
+        <br>
+        Select File to Upload:<input type="file" name="fname">
+        <br>
+        Destination:<input type="text" name="dest">
+        <br>
+        <input type="submit" value="Upload File">
+        </form>
+        
+        <hr><hr>
+        
+        <h1><u>FILE DOWNLOAD APPLICATION</u></h1>
+        Click here<a href="FileDownload?filename=sample -1.pdf">SAMPLE 1 PDF</a>
+        <br><br>
+        Click here<a href="FileDownload?filename=sample-2.pdf">SAMPLE 2 PDF</a>
+    </body>
+</html>
